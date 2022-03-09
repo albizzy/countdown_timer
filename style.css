@@ -25,6 +25,6 @@ h2 {
 .countdown {
     display: flex;
     justify-content: space-around;
-    background: red;
     width: 800px;
+    text-align: center;
 }
