@@ -1,0 +1,30 @@
+body {
+    font-family: 'poppins';
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.day,
+.hour,
+.minute,
+.second {
+    font-size: 3rem;
+}
+
+.countdown {
+    display: flex;
+    justify-content: space-around;
+    background: red;
+    width: 800px;
+}
