@@ -11,7 +11,8 @@ const countdown = () => {
 
     //calculated time
     const textDay = Math.floor(timeGap / day);
-    console.log(textDay)
+    const textHour = Math.floor((timeGap % day) * hour);
+    const textMinute = Math.floor((timeGap % hour) * minute);
 };
 
 countdown();
