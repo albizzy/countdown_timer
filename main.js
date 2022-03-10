@@ -24,4 +24,7 @@ const countdown = () => {
 setInterval(countdown, 1000);
 
 //Getting the modal
-const modal = doument.getElementById('myModal');
+const modal = document.getElementById('myModal');
+
+//Get the button that opens the modal
+const button = document.getElementById('myBtn');
