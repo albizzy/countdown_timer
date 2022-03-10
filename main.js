@@ -22,3 +22,6 @@ const countdown = () => {
 };
 
 setInterval(countdown, 1000);
+
+//Getting the modal
+const modal = doument.getElementById('myModal');
