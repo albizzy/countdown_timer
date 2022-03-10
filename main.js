@@ -42,3 +42,10 @@ btn.onclick = function() {
 span.onclick = function() {
     modal.style.display = 'none';
 }
+
+//When user clicks anywhere outside the window, close the modal
+window.onclick = function(event) {
+    if (event.target === modal) {
+        modal.style.display = 'none';
+    }
+}
