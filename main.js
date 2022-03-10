@@ -34,7 +34,7 @@ const span = document.getElementsByClassName("close")[0];
 
 
 //When user click the button, open the modal
-btn.onclick = function() {
+button.onclick = function() {
     modal.style.display = 'block';
 }
 
