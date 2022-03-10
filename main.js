@@ -30,4 +30,15 @@ const modal = document.getElementById('myModal');
 const button = document.getElementById('myBtn');
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+const span = document.getElementsByClassName("close")[0];
+
+
+//When user click the button, open the modal
+btn.onclick = function() {
+    modal.style.display = 'block';
+}
+
+//When user click the x button, close the modal
+span.onclick = function() {
+    modal.style.display = 'none';
+}
